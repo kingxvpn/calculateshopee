@@ -1,2 +1,26 @@
 # calculateshopee
-Jangan Salah Guna :) 1ZC0D3
+
+Just open shopee web and login, then copy & paste this javascript, lastly simply run calculate(0);
+
+Use calculate.js to calculate in console
+Use calculate_with_csv.js to calculate in console & generate CSV
+Use calculate_ui to display total directly on web page
+Instructions
+
+Copy code from one of the file (calculate.js, calculate_with_csv, or calculate_ui)
+Open Shopee's website and log in into your account
+Open browser developer tool > console (rightt click > inspect > console tab)
+Paste the code and press enter
+Using Calculate Bookmarklet (optional)
+
+Go to https://caiorss.github.io/bookmarklet-maker/
+Copy & Paste "calculate_ui.js" into Code section > Fill the title with "Shopee Total" > Click "Generate Bookmarklet" > Drag Link under "Generate Bookmarklet" button to your bookmark bar.
+Go to Shopee website. Click the bookmark "Shopee Total". Result will appear beside your Shopee username.
+NOTE
+
+Only calculate order in "Completed" section
+Doesn't count order in "To Ship", "To Receive" section
+Only display 1st item (if more than 1 item in single order) but still count total value of order
+Credit (for CSV file generator) https://stackoverflow.com/a/24922761
+
+Jangan Salah Guna :) # 1ZC0D3
